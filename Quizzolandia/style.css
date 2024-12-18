@@ -1,0 +1,135 @@
+/* Stile per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    /* Imposta il font della pagina su Arial o sans-serif */
+    margin: 0;
+    /* Rimuove il margine predefinito del browser */
+    padding: 0;
+    /* Rimuove il padding predefinito */
+    display: flex;
+    /* Usa il layout flexbox */
+    flex-direction: column;
+    /* Allinea gli elementi in una colonna (verticalmente) */
+    align-items: center;
+    /* Centra gli elementi orizzontalmente */
+    justify-content: center;
+    /* Centra gli elementi verticalmente */
+    height: 100vh;
+    /* Imposta l'altezza della pagina uguale all'altezza della finestra del browser */
+    background-color: #e6f7ff;
+    /* Colore di sfondo azzurro chiaro */
+}
+
+/* Stili per i contenitori di form */
+.container, .form-container {
+    text-align: center;
+    /* Centra il testo all'interno del contenitore */
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    /* Bordo leggero trasparente intorno al contenitore */
+    border-radius: 10px;
+    /* Angoli arrotondati per il contenitore */
+    padding: 60px;
+    /* Aggiunge uno spazio interno di 60px */
+    margin-top: 20px;
+    /* Aggiunge uno spazio sopra il contenitore per separarlo dal contenuto precedente */
+    background-color: #ffffff;
+    /* Imposta lo sfondo del contenitore su bianco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Aggiunge un'ombra leggera al contenitore */
+}
+
+/* Stile per un contenitore che si apre */
+.form-container-multiple {
+    margin-top: 350px;
+    /* Sposta il contenitore verso il basso */
+}
+
+.form-container-open {
+    margin-top: 500px;
+    /* Sposta il contenitore verso il basso */
+}
+
+/* Stile per il titolo principale (h1) */
+h1 {
+    color: #333;
+    /* Imposta il colore del testo del titolo a grigio scuro */
+}
+
+/* Stile per il sottotitolo */
+.subtitle {
+    opacity: 0.7;
+    /* Imposta l'opacità al 70% per rendere il testo semi-trasparente */
+}
+
+/* Stili per un elenco ordinato (ol) */
+ol {
+    text-align: left;
+    /* Allinea il testo dell'elenco a sinistra */
+    margin-top: 100px;
+    /* Aggiunge uno spazio sopra l'elenco */
+    padding: 0;
+    /* Rimuove il padding predefinito */
+    max-width: 600px;
+    /* Imposta una larghezza massima per l'elenco */
+}
+
+/* Stili per i pulsanti */
+.button {
+    display: inline-block;
+    /* Fa sì che il pulsante sia un elemento in linea ma con proprietà da blocco */
+    margin: 10px;
+    /* Aggiunge uno spazio attorno al pulsante */
+    padding: 10px 20px;
+    /* Aggiunge padding interno per rendere il pulsante più grande */
+    font-size: 16px;
+    /* Imposta la dimensione del font del testo del pulsante */
+    color: #fff;
+    /* Colore del testo del pulsante bianco */
+    background-color: #007bff;
+    /* Colore di sfondo del pulsante blu */
+    border: none;
+    /* Rimuove il bordo del pulsante */
+    border-radius: 5px;
+    /* Arrotonda gli angoli del pulsante */
+    cursor: pointer;
+    /* Mostra il cursore a mano quando si passa sopra il pulsante */
+    text-decoration: none;
+    /* Rimuove la decorazione del testo, come il sottolineato */
+}
+
+/* Stile per il pulsante al passaggio del mouse */
+.button:hover {
+    background-color: #0056b3;
+    /* Cambia il colore di sfondo a un blu più scuro quando il mouse passa sopra */
+}
+
+/* Stili per textarea e select */
+textarea,
+select {
+    width: 100%;
+    /* Imposta la larghezza di textarea e select al 100% del contenitore */
+    margin: 10px 0;
+    /* Aggiunge margine sopra e sotto */
+    padding: 10px;
+    /* Aggiunge padding all'interno degli elementi */
+}
+
+/* Stile per il pulsante di invio */
+.submit {
+    background-color: #28a745;
+    /* Colore di sfondo verde per il pulsante di invio */
+    margin-top: 20px;
+    /* Aggiunge margine sopra il pulsante */
+}
+
+/* Stile per il pulsante di invio al passaggio del mouse */
+.submit:hover {
+    background-color: #218838;
+    /* Cambia il colore di sfondo a verde più scuro al passaggio del mouse */
+}
+
+/* Stile per il titolo con un margine inferiore maggiore */
+.title {
+    margin-bottom: 100px;
+    /* Aggiunge uno spazio sotto il titolo */
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizzolandia - Multiple Choice</title>
+</head>
+
+<body>
+    <!-- Contenitore del form per le domande a risposta multipla -->
+    <div class="form-container form-container-multiple" id="multiple-choice">
+        <!-- Titolo principale della pagina del quiz con domande a risposta multipla -->
+        <h1>Domande a Risposta Multipla - Quizzolandia</h1>
+
+        <!-- Lista ordinata delle domande con relative risposte a scelta -->
+        <ol>
+            <!-- Prima domanda: Dispositivo al livello 2 della pila ISO/OSI -->
+            <li>Quale dispositivo appartiene al livello 2 della pila ISO/OSI?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="router">Router</option>
+                    <option value="switch">Switch</option>
+                    <option value="firewall">Firewall</option>
+                </select>
+            </li>
+
+            <!-- Seconda domanda: Protocollo al livello 7 della pila ISO/OSI -->
+            <li>Quale protocollo appartiene al livello 7 della pila ISO/OSI?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="http">HTTP</option>
+                    <option value="tcp">TCP</option>
+                    <option value="ip">IP</option>
+                </select>
+            </li>
+
+            <!-- Terza domanda: Indirizzo di loopback -->
+            <li>Qual è l'indirizzo di loopback?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="192.168.1.1">192.168.1.1</option>
+                    <option value="127.0.0.1">127.0.0.1</option>
+                    <option value="8.8.8.8">8.8.8.8</option>
+                </select>
+            </li>
+
+            <!-- Quarta domanda: Indirizzo privato -->
+            <li>Quale di questi è un indirizzo privato?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="172.16.0.1">172.16.0.1</option>
+                    <option value="8.8.8.8">8.8.8.8</option>
+                    <option value="1.1.1.1">1.1.1.1</option>
+                </select>
+            </li>
+
+            <!-- Quinta domanda: Righe di una tabella in un DBMS -->
+            <li>Come sono chiamate le righe di una tabella in un DBMS?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="colonne">Colonne</option>
+                    <option value="record">Record</option>
+                    <option value="chiavi">Chiavi</option>
+                </select>
+            </li>
+
+            <!-- Sesta domanda: Protocollo non fa parte del livello 3 della pila ISO/OSI -->
+            <li>Quale protocollo non fa parte del livello 3 della pila ISO/OSI?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="icmp">ICMP</option>
+                    <option value="udp">UDP</option>
+                    <option value="ospf">OSPF</option>
+                </select>
+            </li>
+
+            <!-- Settima domanda: Cos'è il protocollo SSH -->
+            <li>Cos'è il protocollo SSH?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="Un protocollo per la trasmissione sicura dei dati">Un protocollo per la trasmissione
+                        sicura dei dati</option>
+                    <option value="Un protocollo per la risoluzione dei nomi">Un protocollo per la risoluzione dei nomi
+                    </option>
+                    <option value="Un protocollo per l'invio di e-mail">Un protocollo per l'invio di e-mail</option>
+                </select>
+            </li>
+
+            <!-- Ottava domanda: Dispositivo con la MAC Table -->
+            <li>In quale dispositivo è presente la MAC Table?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="hub">Hub</option>
+                    <option value="switch">Switch</option>
+                    <option value="firewall">Firewall</option>
+                </select>
+            </li>
+
+            <!-- Nona domanda: Dispositivo che inoltra traffico in broadcast -->
+            <li>In quale dispositivo il traffico viene inoltrato in broadcast?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="router">Router</option>
+                    <option value="firewall">Firewall</option>
+                    <option value="hub">Hub</option>
+                </select>
+            </li>
+
+            <!-- Decima domanda: Dispositivo con l'SVI (Switch Virtual Interface) -->
+            <li>Su quale dispositivo viene effettuato l'SVI (Switch Virtual Interface)?
+                <!-- Menu a discesa con le opzioni di risposta -->
+                <select>
+                    <option value="">-- Seleziona una risposta --</option>
+                    <option value="switch-multilayer">Switch Multilayer</option>
+                    <option value="router">Router</option>
+                    <option value="firewall">Firewall</option>
+                </select>
+            </li>
+        </ol>
+
+        <!-- Pulsante per inviare le risposte -->
+        <button class="button submit" onclick="window.location.href='confirmation.html'">Invia Risposte</button>
+    </div>
+</body>
+
+</html>
