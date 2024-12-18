@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Layout a colonna */
+}
+
+body {
+  background-color: #2a2a2a; /* Colore di sfondo leggermente più chiaro della navbar */
+  color: #ffffff; /* Testo bianco per contrasto */
+  flex: 1;
+}
+
+.hero-box {
+  background-color: #3b3b3b;
+  /* Blu Bootstrap */
+  padding: 40px 80px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  background-color: #3b3b3b; /* Colore di sfondo per la sezione hero */
+  height: 100vh; /* Imposta l'altezza dell'hero al 150% dell'altezza della finestra */
+  display: flex; /* Usa Flexbox per allineare il contenuto */
+  justify-content: center; /* Centra il contenuto orizzontalmente */
+  align-items: center; /* Centra il contenuto verticalmente */
+}
+
+.hero h1 {
+  font-size: 6rem;
+  /* Aumentata la dimensione del font per il titolo */
+  margin: 0;
+}
+
+.card-body {
+  flex: 1;
+  /* Permette al corpo della card di espandersi per riempire lo spazio disponibile */
+}
+
+.cards-section {
+  padding: 50px 0;
+  background-color: #2a2a2a;
+  /* Sfondo bianco per la sezione delle card */
+}
+
+.card {
+  background-color: #3f3f3f; /* Colore di sfondo più chiaro per le card */
+  color: #ffffff; /* Testo bianco per contrasto */
+  height: 100%; /* Imposta l'altezza della card al 100% del contenitore */
+  display: flex; /* Usa flexbox per allineare il contenuto */
+  flex-direction: column; /* Disporre gli elementi in colonna */
+}
+.card .btn-dark {
+  background-color: #5a2e9e; /* Un blu più scuro per i pulsanti */
+  border-color: #5a2e9e; /* Stessa tonalità per il bordo */
+}
+
+.card .btn-dark:hover {
+  background-color: #6f42c1; /* Un blu ancora più chiaro per l'hover */
+  border-color: #6f42c1; /* Stessa tonalità per il bordo hover */
+}
+
+.card-img-top {
+  width: 100%; /* Imposta la larghezza al 100% del contenitore */
+  height: 200px; /* Imposta un'altezza fissa per tutte le immagini */
+  object-fit: cover; /* Mantiene le proporzioni dell'immagine e la adatta all'area */
+}
+
+/* Stili per la navbar */
+.navbar {
+  background-color: #1a1a1a; /* Colore di sfondo più scuro per la navbar */
+  padding: 0.75rem 1.5rem; /* Aumenta il padding verticale e orizzontale */
+}
+
+/* Stili per i link della navbar */
+.navbar .nav-link {
+  margin: 0 15px; /* Aggiungi margini orizzontali ai link della navbar */
+  font-size: 1rem; /* Mantieni la dimensione del testo dei link */
+}
+
+/* Stili per il footer */
+footer {
+  margin-top: auto; /* Spinge il footer verso il basso */
+  background-color: #1a1a1a; /* Colore di sfondo uguale a quello della navbar */
+  padding: 0.75rem 1.5rem; /* Aumenta il padding verticale e orizzontale */
+  color: #ffffff; /* Colore del testo uguale a quello della navbar */
+}

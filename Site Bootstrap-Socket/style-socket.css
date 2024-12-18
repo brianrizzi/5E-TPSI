@@ -1,0 +1,83 @@
+body {
+    background-color: #2a2a2a; /* Colore di sfondo leggermente più chiaro della navbar */
+    color: #ffffff; /* Testo bianco per contrasto */
+  }
+  
+/* Stili per la navbar */
+.navbar {
+  background-color: #1a1a1a; /* Colore di sfondo più scuro per la navbar */
+  padding: 0.75rem 1.5rem; /* Aumenta il padding verticale e orizzontale */
+}
+
+/* Stili per i link della navbar */
+.navbar .nav-link {
+  margin: 0 15px; /* Aggiungi margini orizzontali ai link della navbar */
+  font-size: 1rem; /* Mantieni la dimensione del testo dei link */
+}
+
+/* Stili per il footer */
+footer {
+  margin-top: auto; /* Spinge il footer verso il basso */
+  background-color: #1a1a1a; /* Colore di sfondo uguale a quello della navbar */
+  padding: 0.75rem 1.5rem; /* Aumenta il padding verticale e orizzontale */
+  color: #ffffff; /* Colore del testo uguale a quello della navbar */
+}
+
+.titles-section {
+  padding: 20px 0; /* Spazio sopra e sotto i titoli */
+  max-width: 800px; /* Limita la larghezza massima per centrare il contenuto */
+  margin: 0; /* Rimuove il margine */
+}
+
+.titles-section .main-title {
+  font-size: 2.5rem; /* Dimensione del font per il titolo principale */
+  color: #ffffff; /* Colore del testo */
+  margin: 0; /* Rimuove il margine */
+}
+
+.titles-section .sub-title {
+  font-size: 1.5rem; /* Dimensione del font per il sottotitolo */
+  color: #cccccc; /* Colore del testo per il sottotitolo */
+  margin-top: 10px; /* Margine sopra il sottotitolo */
+}
+
+.titles-section .description {
+  font-size: 1rem; /* Dimensione del font per la descrizione */
+  color: #cccccc; /* Colore del testo per la descrizione */
+  margin-top: 10px; /* Margine sopra il paragrafo */
+}
+
+.custom-bg {
+  background-color: #f0f0f0;
+}
+
+/* Stile personalizzato per la list-group */
+.custom-list-group {
+  background-color: #2a2a2a; /* Colore di sfondo uguale a quello della pagina */
+  border: none; /* Rimuovi il bordo della list-group */
+}
+.custom-list-group .list-group-item {
+  background-color: #2a2a2a; /* Colore di sfondo per gli elementi della lista */
+  color: #ffffff; /* Colore del testo */
+}
+.custom-list-group .list-group-item:hover {
+  background-color: #3b3b3b; /* Colore di sfondo al passaggio del mouse */
+}
+
+.list-group-item {
+  background-color: #4a4a4a;
+  color: #f0f0f0;
+}
+
+.description{
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+.row {
+  margin-top: 20px; /* Margine superiore per separare dal sottotitolo */
+}
+
+#margin-div{
+  margin-top: 10%;
+}

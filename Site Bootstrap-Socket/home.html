@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style-home.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="socket.html">Socket</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mod-iso-osi.html">Modello ISO/OSI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tcp-udp.html">TCP e UDP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="glossario.html">Glossario</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-box text-center">
+      <h1>Le Socket</h1>
+    </div>
+  </section>
+  <!-- Descrizione Socket -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-start"> <!-- Cambiato da text-center a text-start -->
+        <h2 class="text-center">Per iniziare...</h2> <!-- Mini titolo centrato -->
+        <p class="mt-3 mb-4">
+          Una socket è un'interfaccia software che consente la comunicazione tra due dispositivi in rete, come computer,
+          server o altri dispositivi connessi.
+          Funziona come un punto di accesso per inviare e ricevere dati, utilizzando protocolli come
+          <a href = "glossario.html">TCP</a> (affidabile e orientato alla connessione) o <a href = "glossario.html">UDP</a> (più veloce ma meno
+          affidabile).
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Cards Section -->
+  <div class="cards-section">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Image-card-home-1.png" class="card-img-top" alt="Card 1">
+            <div class="card-body">
+              <h5 class="card-title">Cos'è una Socket</h5>
+              <p class="card-text">Introduzione al mondo dei socket e alle loro funzionalità.</p>
+              <a href="socket.html" class="btn btn-dark">Vai alla pagina</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image-card-home-2.png" class="card-img-top" alt="Card 2">
+            <div class="card-body">
+              <h5 class="card-title">Pila ISO/OSI</h5>
+              <p class="card-text">Scopri la struttura della pila ISO/OSI e come facilita la comunicazione tra sistemi
+                diversi.</p>
+              <a href="mod-iso-osi.html" class="btn btn-dark">Vai alla pagina</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image-card-home-3.jpg" class="card-img-top" alt="Card 3">
+            <div class="card-body">
+              <h5 class="card-title">Protocolli TCP e UDP</h5>
+              <p class="card-text">Analizza le differenze tra i protocolli TCP e UDP e il loro utilizzo nelle
+                comunicazioni di rete.</p>
+              <a href="tcp-udp.html" class="btn btn-dark">Vai alla pagina</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="navbar-dark bg-dark py-3 my-0">
+  <ul class="border-bottom pb-3 mb-3">
+  </ul>
+  <p class="text-center">&copy; 2024 Company, by Brian</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
